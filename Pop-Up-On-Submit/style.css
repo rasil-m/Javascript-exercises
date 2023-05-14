@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #232323;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container button
+{
+    border: none;
+    outline: none;
+    padding:15px 30px;
+    margin-top:15rem;
+    background: rgb(2, 209, 237);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container .pop-up
+{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    position: absolute;
+    top: -20%;
+    border-radius: 8px;
+    transform: scale(0.1);
+    visibility: hidden;
+    transition: all 0.5s;
+
+}
+.container .pop-up .tick-icon
+{
+    height:70px;
+    width: 100%;
+    background: #00ff66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .pop-up .tick-icon i
+{
+    font-size: 26px;
+    color: #fff;
+}
+.container .pop-up .text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .pop-up .text p
+{
+    padding: 20px;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+.container .pop-up .text button
+{
+    margin-top: 3%;
+    background: rgb(255, 17, 1);
+    color: #fff;
+}
+
+.container .pop-up.show
+{
+    transform: scale(1);
+    visibility: visible;
+    top: 10rem;
+}
