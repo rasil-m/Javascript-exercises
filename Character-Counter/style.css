@@ -1,0 +1,23 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+textarea
+{
+    outline: none;
+    border: 2px solid rgb(137, 12, 215);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    resize: none;
+    margin: 10% 0 0 30%;
+    border-radius: 2rem;
+}
+p
+{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 20px;
+}
